@@ -26,6 +26,10 @@ export default class Game {
     requestAnimationFrame(() => this.update());
   }
 
+  public resize() {
+    this.renderer.resize(this.canvas.clientWidth, this.canvas.clientHeight);
+  }
+
   private update() {
     this.renderer.render(this.stage);
     requestAnimationFrame(() => this.update());

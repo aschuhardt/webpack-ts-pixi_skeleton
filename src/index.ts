@@ -5,6 +5,8 @@ import "./styles/global.css";
 window.onload = () => {
   const canvas = document.getElementById("pixi") as HTMLCanvasElement;
   if (canvas) {
-    new Game(canvas).Run();
+    const game = new Game(canvas);
+    window.onresize = () => game.resize();
+    game.Run();
   }
 };
