@@ -32,4 +32,4 @@ module.exports = {
     }),
     new CleanWebpackPlugin(["dist"])
   ]
-};
+};                          

@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@types/pixi.js": "^4.7.3",
-    "pixi.js": "^4.7.3"
+    "pixi.js": "^4.7.3",
+    "webfontloader": "^1.6.28"
   }
 }
